@@ -1,5 +1,5 @@
 # beautystudio-mobile
-
+#### Server
 ##### Inicializando projeto
 ```console
 npm init -y
@@ -53,7 +53,32 @@ Adicionar  arquivo package.json > scripts
 Adicionar  arquivo package.json > scripts
 > "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts"
 
+##### Possíveis problemas com a conexão
+Execute the following query in MYSQL Workbench
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+
+Where root as your user localhost as your URL and password as your password
+
+Then run this query to refresh privileges:
+
+flush privileges;
+
+Try connecting using node after you do so.
+
+If that doesn't work, try it without @'localhost' part.
+
 ```console
 nm run dev
 ```
 
+#### Mobile
+
+##### Instalando dependências para autenticar com o google
+```console
+expo install expo-google-app-auth
+```
+and
+598306420693-sfrrl0jo06o38spk7mm7837b3e8u99d8.apps.googleusercontent.com
+ios
+598306420693-rhtmvv82n06e5nus9kknukjgnj7ftcrl.apps.googleusercontent.com

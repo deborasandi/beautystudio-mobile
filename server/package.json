@@ -18,6 +18,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "expo-google-app-auth": "^8.1.0",
     "express": "^4.17.1",
     "knex": "^0.21.1",
     "mysql": "^2.18.1"
