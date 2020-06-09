@@ -78,7 +78,3 @@ nm run dev
 ```console
 expo install expo-google-app-auth
 ```
-and
-598306420693-sfrrl0jo06o38spk7mm7837b3e8u99d8.apps.googleusercontent.com
-ios
-598306420693-rhtmvv82n06e5nus9kknukjgnj7ftcrl.apps.googleusercontent.com
