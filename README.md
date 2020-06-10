@@ -21,18 +21,18 @@ npm install mysql
 ```
 
 ##### Criando estrutura do projeto
-######Criar na raiz do projeto a pasta 
+###### Criar na raiz do projeto a pasta 
 > src
 
-######Criar os arquivos
+###### Criar os arquivos
 > server.js
 > routes.js
 
-######Criar as pastas 
+###### Criar as pastas 
 > database
 > controllers
 
-######Criar o arquivo dentro da pasta database
+###### Criar o arquivo dentro da pasta database
 > connection.ts
 
 ##### Configurando base de dados
